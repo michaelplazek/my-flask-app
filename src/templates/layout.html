@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome{% endblock %} | My Flask App</title>
+</head>
+<body>
+
+<div class="navigation"></div>
+
+<div class="header">
+{% block header %} {% endblock %}
+</div>
+
+<div class="body">
+{% block body %}{% endblock %}
+</div>
+
+<div class="footer">
+My Thoughts | 2018
+</div>
+
+</body>
+</html>
